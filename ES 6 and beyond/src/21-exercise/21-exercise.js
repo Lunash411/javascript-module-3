@@ -74,7 +74,7 @@ class Employee extends Person {
 // jobTitle: "Developer"
 //
 // Store the new instance in the `ana` variable
-const ana = new Employee("Ana", "Spark", "Devoloper");
+const ana = new Employee("Ana", "Spark", "Developer");
 
 // Don’t change the code bellow this line
 export { Person, Employee, ana };
