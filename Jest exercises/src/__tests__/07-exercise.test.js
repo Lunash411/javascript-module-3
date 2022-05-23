@@ -35,5 +35,6 @@ describe("07-exercises", () => {
 
     // 5. make an assertion that the axios.get method has been
     //    called with the `BASE_URL` variable
+    expect(axios.get).toHaveBeenCalledWith(BASE_URL)
   });
 });

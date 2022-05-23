@@ -79,5 +79,9 @@ describe("06-exercises", () => {
     // Finish the test
     const result = fetchUserFail(userID);
     result
+    .catch(rejectedMessage => {
+      expect(rejectedMessage).toEqual(expectedMessage)
+      done()
+    })
   });
 });

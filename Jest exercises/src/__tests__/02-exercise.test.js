@@ -24,6 +24,7 @@ describe("02-exercises", () => {
     const user2 = user1;
 
     // Finish the test
+    expect(user1).toBe(user2)
   });
   test("user1 is not the same as user3", () => {
     expect.assertions(1);

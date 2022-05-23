@@ -38,7 +38,7 @@ describe("09-exercises", () => {
 
     // 7. Make an assertion that the addSpy has been called with the
     //    numbers 7 and 3
-    expect(addSpy).toHaveBeenCalledWith(4, 5);
+    expect(addSpy).toHaveBeenCalledWith(7, 3);
   });
 
   test("increment returns 15 for 10 + 5", () => {

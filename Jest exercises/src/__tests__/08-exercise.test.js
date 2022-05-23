@@ -25,8 +25,10 @@ describe("08-exercises", () => {
     expect.assertions(2);
 
     // 3. Make an assertion that the addSpy has been called 1 time
+    expect(addSpy).toHaveBeenCalled()
 
     // 4. Make an assertion that the addSpy has been called with the
     // numbers 4 and 5
+    expect(addSpy).toHaveBeenCalledWith(4, 5)
   });
 });
