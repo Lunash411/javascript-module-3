@@ -8,6 +8,7 @@ describe("02-exercises", () => {
     expect.assertions(1);
 
     // Finish the test
+    expect(hello).toBe("hello-world")
   });
   test("the variable `hello` is not the same as 'hola-mundo'", () => {
     const hello = "hello-world";

@@ -23,12 +23,12 @@ describe("07-exercises", () => {
 
     // 2. set a mock resolved value to the axios.get method
     //    and pass it the `users` variable
-    axios.get.mockResolvedValueOnce(users);
+    axios.get.mockResolvedValueOnce(users)
 
     // 3. use await with the getUsers function and pass it as an argument
     //    the `BASE_URL` variable and then store the returned data
     //    in a variable `result`
-    const result = await getUserData(BASE_URL);
+    const result = await getUserData(BASE_URL)
 
     // 4. make an assertion that the `result` is equal to the `users.data` variable
     expect(result).toEqual(users.data)

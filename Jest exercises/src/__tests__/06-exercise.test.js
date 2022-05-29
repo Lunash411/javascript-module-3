@@ -49,7 +49,7 @@ describe("06-exercises", () => {
     expect.assertions(1);
 
     // Finish the test
-    fetchUserOK(userID) // Promise<{}>
+    fetchUserOK(userID) 
     .then(
       result => {
         expect(result).toEqual(expectedUser);
